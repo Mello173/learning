@@ -1,0 +1,29 @@
+html {
+  background-color: black;
+  color: silver;
+}
+
+.name {
+  padding: 2px;
+  margin: 2px;
+}
+
+.position {
+  color: orange;
+}
+
+p {
+  font-size: 16px;
+}
+
+.img2 {
+  padding-left: 5%;
+}
+
+.img1 {
+  padding-left: 2%;
+}
+
+.vid {
+  margin-top: 15px;
+}
