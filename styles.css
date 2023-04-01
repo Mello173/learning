@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-  position: sticky;
+  position: relative;
   top: 100px;
   left: 0px;
 }
@@ -44,7 +44,7 @@ footer {
   background-color: silver;
   color: black;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 40px;
@@ -59,34 +59,68 @@ footer h3 {
 .main {
   position: relative;
   top: 100px;
-  margin-bottom: 100px;
 }
 
-.images {
-  display: inline;
+#about-info {
+  text-align: justify;
+  font-size: 1.05em;
+  margin-right: 5em;
+  width: 85%;
+  padding-left: 5%;
+}
+
+.subsect1 {
+  align-self: space-between;
+  margin: 0px auto;
+}
+
+.sect1 {
+  display: flex;
   justify-content: space-around;
 }
 
+.sect2 {
+  display: flex;
+  justify-items: space-around;
+  margin: 50px;
+  height: 600px;
+}
+
 .img1 {
-  width: 30%;
+  width: 85%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 .img2 {
-  width: 30%
+  width: auto;
+  margin: 0 2.5em;
+  height: 90%;
 }
 
 .vid {
   width: 30%;
 }
 
+.educate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 #learn1 {
-  width: 35%
+  width: 80%;
+  margin: 0 auto;
 }
 
 #learn2 {
-  width: 35%
+  align-self: center;
+  font-size: 1.3em;
+  margin: 0 auto;
 }
 
-#learnList {
-  width: 20%;
+#learn3 {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
