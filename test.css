@@ -13,7 +13,20 @@ html {
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+li {
+  font-size: 14px;
+  color: orange;
+}
+
+.images {
+  display: inline-flex;
 }
 
 .img2 {
@@ -26,4 +39,24 @@ p {
 
 .vid {
   margin-top: 15px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+#foot {
+  text-align: left;
+}
+
+#learn1 {
+  width: 35%
+}
+
+#learn2 {
+  width: 35%
+}
+
+#learnList {
+  width: 20%;
 }
