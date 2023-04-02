@@ -125,3 +125,40 @@ footer h3 {
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
+#active {
+  color: white;
+  font-weight: bold;
+}
+
+.contact-sect {
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.cont1 {
+  width: 70%;
+  padding-left: 8em;
+}
+
+.cont2 {
+  font-size: 18px;
+  width: 30%;
+  margin-right: 12em;
+  margin-top: 2em;
+}
+#name {
+  margin-bottom: 20px;
+  background-color: darkgrey;
+}
+
+#subject {
+  background-color: darkgrey;
+}
+
+::placeholder {
+  color: rgb(88, 86, 86);
+}
