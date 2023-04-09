@@ -11,3 +11,5 @@
   + SQL
   + Golang
   + Command Line
+
+##### I have covered the basics for all of the above listed languages/programs. I have not mastered any of them yet but I am working on it. I have no real world experience in using them for an actual project other than what I have used in this project.
